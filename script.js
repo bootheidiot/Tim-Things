@@ -1,5 +1,6 @@
 var select = document.getElementById("select");
+var embed = document.getElementById("embed");
 
 function checkselect() {
-  alert(select.value);
+  embed.src = select.value;
 }
